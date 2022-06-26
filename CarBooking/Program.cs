@@ -39,7 +39,7 @@ namespace CarBooking
             {
                 Console.WriteLine("Login failed!");
                 Console.WriteLine("----------------------------");
-                Console.WriteLine("Re-login: ");
+                Console.WriteLine("Re-login:");
                 Login();
             }
             Console.WriteLine("------------------------------------");
