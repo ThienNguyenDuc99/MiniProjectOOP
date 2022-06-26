@@ -26,7 +26,7 @@ namespace CarBooking
 
         public static void Login()
         {
-            Console.Write("Username: ");
+            Console.Write("Username:  ");
             username = Console.ReadLine();
             Console.Write("Password: ");
             var password = Console.ReadLine();
