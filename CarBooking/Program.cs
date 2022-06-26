@@ -26,7 +26,7 @@ namespace CarBooking
 
         public static void Login()
         {
-            Console.Write("Username:  ");
+            Console.Write("Username: ");
             username = Console.ReadLine();
             Console.Write("Password: ");
             var password = Console.ReadLine();
@@ -39,7 +39,7 @@ namespace CarBooking
             {
                 Console.WriteLine("Login failed!");
                 Console.WriteLine("----------------------------");
-                Console.WriteLine("Re-login:");
+                Console.WriteLine("Re-login: ");
                 Login();
             }
             Console.WriteLine("------------------------------------");
